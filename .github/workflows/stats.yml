@@ -4,10 +4,6 @@ on:
   pull_request:
     types: [opened]
 
-permissions:
-    contents: read
-    pull-requests: write
-    
 jobs:
   stats:
     runs-on: ubuntu-latest
